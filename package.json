@@ -1,0 +1,19 @@
+{
+  "name": "discord-globotimer",
+  "version": "1.0.0",
+  "description": "A discord bot for display converted local time",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  }
+}
