@@ -1,6 +1,6 @@
 {
   "name": "discord-globotimer",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "A discord bot for display converted local time",
   "private": true,
   "main": "index.js",
