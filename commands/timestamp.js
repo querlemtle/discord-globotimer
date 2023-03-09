@@ -13,7 +13,7 @@ module.exports = {
             .setDescription("The message to insert timestamp and reply with"))
     .addIntegerOption(option =>
       option.setName("index")
-        .setDescription("Where to insert the timestamp into custom message. The index starts from zero.")),
+        .setDescription("Where to insert the timestamp into custom message. The index starts from zero")),
   async execute(interaction) {
     const inputDate = interaction.options.getString("date");
     const inputMessage = interaction.options.getString("message") || "Corresponding local time is:";
